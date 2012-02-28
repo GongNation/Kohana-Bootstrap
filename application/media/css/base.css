@@ -1,0 +1,210 @@
+/*
+ * Copyright 2012, GongNation
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ */
+
+::-webkit-selection {
+	background: #fe57a1;
+	color: #fff;
+	text-shadow: none;
+}
+::-moz-selection {
+	background: #fe57a1;
+	color: #fff;
+	text-shadow: none;
+}
+::selection {
+	background: #fe57a1;
+	color: #fff;
+	text-shadow: none;
+}
+body {
+	background-color: #bd664d;
+	padding-bottom: 40px;
+	padding-top: 60px;
+}
+
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus,
+select:focus,
+a:focus,
+.btn:focus {
+	outline: 0;
+	outline-offset: 0px;
+}
+
+a:hover {
+	_outline: 0;
+}
+
+input[type="text"],
+input[type="password"] {
+	outline: 0\9;
+	outline-offset: 0px\9;
+}
+
+.navbar .nav > li > a:hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #222222;
+}
+.container {
+	width: 960px;
+}
+
+/* index */
+.welcome-page {
+	padding: 40px 0px 60px 0px;
+	background-color: #bd664d;
+}
+
+.form-login,
+.form-signup {
+	-webkit-border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	border-radius: 4px 4px 4px 4px;
+	padding-bottom: 0;
+	margin-top: 0px;
+}
+.welcome-page input[type="text"],
+.welcome-page input[type="password"] {
+	width: 183px;
+	+width: 181px;
+}
+.welcome-page .control-group {
+	margin-bottom: 14px;
+}
+#welcome-Carousel {
+	width: 500px;
+}
+#welcome-Carousel .item img {
+	-webkit-border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	border-radius: 4px 4px 4px 4px;
+}
+#welcome-Carousel .item .carousel-caption {
+	-webkit-border-radius: 0px 0px 4px 4px;
+	-moz-border-radius: 0px 0px 4px 4px;
+	border-radius: 0px 0px 4px 4px;
+}
+
+/* home */
+.navbar .nav > li > a:hover i {
+	background-image: url("../plugin/bootstrap/img/glyphicons-halflings-white.png");
+}
+.sidebar-left {
+	min-height: 500px;
+}
+.sidebar-left ul li a {
+	color: #222;
+	text-shadow: none;
+}
+.sidebar-left ul li a:hover {
+	background-color: #9C3C58;
+	color: #ffffff;
+}
+.sidebar-left ul li a:hover i {
+	background-image: url("../plugin/bootstrap/img/glyphicons-halflings-white.png");
+}
+.sidebar-left ul .active a {
+	background-color: #8D193C;
+}
+.sidebar-left ul .active a:hover {
+	background-color: #9C3C58;
+}
+.content {
+	width: 590px;
+	min-height: 500px;
+}
+.movement {
+	height: 170px;
+}
+.movement-text {
+	height: 135px;
+	background-color: #ffffff;
+}
+#movement {
+	border-width: 0;
+	border-radius: 0;
+	margin: 0;
+	width: 582px;
+	height: 127px;
+	resize: none;
+}
+.movement-func {
+	height: 35px;
+	background-color: #5A4B53;
+}
+.movement-func h3{
+	color: #ffffff;
+	padding-left: 10px;
+	line-height: 35px;
+}
+.movement-func button {
+	border-radius: 0;
+	border: 0;
+	width: 120px;
+	height: 35px;
+	background: #8D193C;
+}
+.movement-func button:hover {
+	background: #9C3C58;
+}
+.sidebar-right {
+	width: 190px;
+	min-height: 500px;
+}
+.sidebar-right ul li a {
+	color: #222;
+	text-shadow: none;
+}
+.sidebar-right ul li a:hover {
+	background-color: #9C3C58;
+	color: #ffffff;
+}
+.sidebar-right ul li a:hover i {
+	background-image: url("../plugin/bootstrap/img/glyphicons-halflings-white.png");
+}
+.sidebar-right li .cmd-frd{
+	width: 162px;
+	padding: 5px 15px;
+	margin: 0px -15px;
+	height: 40px;
+	border-bottom: 1px solid #5A4B53;
+}
+.sidebar-right li .cmd-frd .close{
+	display: none;
+}
+.sidebar-right li .cmd-frd:hover{
+	background-color: #9C3C58;
+}
+.sidebar-right li .cmd-frd:hover .close{
+	display: block;
+}
+.sidebar-right .nav-header,
+.sidebar-right .nav-header a,
+.sidebar-right .nav-header a:hover {
+	color: #ffffff;
+	background-color: #5A4B53;
+}
+.sidebar-right ul .active a {
+	background-color: #8D193C;
+}
+.sidebar-right ul .active a:hover {
+	background-color: #9C3C58;
+}
+/* footer */
+.footer {
+	margin-top: 60px;
+}
+.footer p {
+	text-align: center;
+}
+.footer p a {
+	color: #333333;
+}
+.footer p a:hover {
+	color: #ffffff;
+}
+/* footer */
